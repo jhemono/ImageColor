@@ -16,15 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
-        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        self.window?.backgroundColor = UIColor.whiteColor()
-        
-        let flow = UICollectionViewFlowLayout()
-        let controller = JHCollectionViewController(collectionViewLayout: flow)
-        
-        self.window?.rootViewController = controller
-        self.window?.makeKeyAndVisible()
-
         return true
     }
 

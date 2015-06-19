@@ -25,26 +25,7 @@ class JHCollectionViewController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let layout = self.collectionView?.collectionViewLayout as? UICollectionViewFlowLayout {
-            layout.minimumInteritemSpacing = 20
-            layout.minimumLineSpacing = 20
-            layout.sectionInset = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
-            layout.itemSize = CGSize(width: 200, height: 200)
-        }
-        
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Register cell classes
-        self.collectionView!.registerNib(UINib(nibName: "JHCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: reuseIdentifier)
-
-        // Do any additional setup after loading the view.
-        
-        self.collectionView?.allowsMultipleSelection = true
-        self.collectionView?.indicatorStyle = .White
-        
-        self.collectionView?.canCancelContentTouches = false
-        self.collectionView?.delaysContentTouches = false
+        self.collectionView?.allowsMultipleSelection = true        
     }
 
     override func didReceiveMemoryWarning() {
