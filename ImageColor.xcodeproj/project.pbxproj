@@ -12,6 +12,7 @@
 		8629C0651B3433BF0045F344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8629C0631B3433BF0045F344 /* LaunchScreen.storyboard */; };
 		8629C06D1B34341C0045F344 /* JHCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8629C06C1B34341C0045F344 /* JHCollectionViewCell.swift */; };
 		8629C06F1B34342E0045F344 /* JHCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8629C06E1B34342E0045F344 /* JHCollectionViewController.swift */; };
+		8629C0711B34AAB20045F344 /* JHCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8629C0701B34AAB20045F344 /* JHCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8629C0661B3433BF0045F344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8629C06C1B34341C0045F344 /* JHCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHCollectionViewCell.swift; sourceTree = "<group>"; };
 		8629C06E1B34342E0045F344 /* JHCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHCollectionViewController.swift; sourceTree = "<group>"; };
+		8629C0701B34AAB20045F344 /* JHCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				8629C05A1B3433BF0045F344 /* AppDelegate.swift */,
 				8629C06C1B34341C0045F344 /* JHCollectionViewCell.swift */,
 				8629C06E1B34342E0045F344 /* JHCollectionViewController.swift */,
+				8629C0701B34AAB20045F344 /* JHCollectionViewCell.xib */,
 				8629C0611B3433BF0045F344 /* Assets.xcassets */,
 				8629C0631B3433BF0045F344 /* LaunchScreen.storyboard */,
 				8629C0661B3433BF0045F344 /* Info.plist */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8629C0711B34AAB20045F344 /* JHCollectionViewCell.xib in Resources */,
 				8629C0651B3433BF0045F344 /* LaunchScreen.storyboard in Resources */,
 				8629C0621B3433BF0045F344 /* Assets.xcassets in Resources */,
 			);

@@ -10,29 +10,17 @@ import UIKit
 
 class JHCollectionViewCell: UICollectionViewCell {
     
-    var imageView: UIImageView
+    @IBOutlet var imageView: UIImageView!
     var image: UIImage? {
         didSet {
             imageView.image = image
         }
     }
     
-    override init(frame: CGRect) {
-        imageView = UIImageView()
-        super.init(frame: frame)
-        
-        self.backgroundColor = UIColor.whiteColor()
-        
-        self.imageView.frame = CGRectInset(self.bounds, 10, 10)
-        self.contentView.addSubview(imageView)
-        
+    override func awakeFromNib() {
         let selectedBackgroundView = UIView(frame: CGRectZero)
         selectedBackgroundView.backgroundColor = UIColor.whiteColor().colorWithAlphaComponent(0.5)
         self.selectedBackgroundView = selectedBackgroundView
-    }
-
-    required init(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
     }
     
     override func prepareForReuse() {
